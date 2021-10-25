@@ -50,6 +50,7 @@ var config = {
 		maxWidth:25,
 		minWidth:15,
 		speed:0.66,
+		color: rgb(255,0,0)
 	},
 	frame:{
 		maxFrameLimit:90,
