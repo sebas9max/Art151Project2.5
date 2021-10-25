@@ -78,7 +78,6 @@ var myEnemies = [];
 var myBullets = [];
 var enemyBullets = [];
 var GameName, displayInstruction, displayScore, gameOver,gameOverWin;
-var loseSound, themeMusic,fireSound,boomSound;
 var scoreCounter = 0;
 
 // creating walls and obstacles and starting game
@@ -115,7 +114,7 @@ var gameArena = {
 		window.addEventListener("keypress", function(e) {
 			if (e.key == " ") {
 				gameArena.state = "playing";
-				themeMusic.play();
+				
 			}
 		});
 		// move mouse to move Deep
