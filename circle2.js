@@ -211,7 +211,7 @@ function displayGameOver(){
 	gameOver.draw();
 	controlItems.className = "show";
     setTimeout(function () {
-        window.location.href = "file:///Users/sebas/Art151/Art151Project2.5/lose.html"; //will redirect to your blog page (an ex: blog.html)
+        window.location.href = "lose.html"; //will redirect to your blog page (an ex: blog.html)
      }, 2000);
 }
 
@@ -250,7 +250,7 @@ function updateLogic(dt){
         if (scoreCounter==1000){
            ("YOU WIN!")
             setTimeout(function () {
-                window.location.href = "file:///Users/sebas/Art151/Art151Project2.5/transition_to_circle3.html"; //will redirect to your blog page (an ex: blog.html)
+                window.location.href = "transition_to_circle3.html"; //will redirect to your blog page (an ex: blog.html)
              }, 1000);return}
 		if (frameInterval(gameArena.framesPerObstacle)) {
 			obstacleCounter++;
@@ -353,7 +353,7 @@ function updateLogic(dt){
 		if(gameArena.state == "quit"){
 			displayGameOver()
             setTimeout(function () {
-                window.location.href = "file:///Users/sebas/Art151/Art151Project2.5/lose.html"; //will redirect to your blog page (an ex: blog.html)
+                window.location.href = "lose.html"; //will redirect to your blog page (an ex: blog.html)
              }, 1000);
 		}
 	} else if( gameArena.state == "standby"){
