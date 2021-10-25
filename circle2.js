@@ -205,7 +205,6 @@ function Item(x, y, width, height, color, type) {
 //diplay game over
 function displayGameOver(){
 	gameArena.stop();
-	loseSound.play();
 	gameOver.text = "GAME OVER YOU LOSE!";
 	gameOver.draw();
 	controlItems.className = "show";
