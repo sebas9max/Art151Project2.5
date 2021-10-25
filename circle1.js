@@ -11,20 +11,20 @@ function submit(){
     if (random == 0 && b == answers[0]) {
         document.getElementById("answers").innerHTML=" correct.." 
         setTimeout(function () {
-            window.location.href = "file:///Users/sebas/Art151/Art151Project2.5/transition_to_circle2.html"; //will redirect to your blog page (an ex: blog.html)
+            window.location.href = "transition_to_circle2.html"; //will redirect to your blog page (an ex: blog.html)
          }, 2000);
 
 
     } else if (random == 1 && b == answers[1]) {
         document.getElementById("answers").innerHTML=" correct.."
         setTimeout(function () {
-            window.location.href = "file:///Users/sebas/Art151/Art151Project2.5/transition_to_circle2.html"; //will redirect to your blog page (an ex: blog.html)
+            window.location.href = "transition_to_circle2.html"; //will redirect to your blog page (an ex: blog.html)
          }, 2000);
        
     } else if (random == 2 && b == answers[2]) {
         document.getElementById("answers").innerHTML=" correct.."
         setTimeout(function () {
-            window.location.href = "file:///Users/sebas/Art151/Art151Project2.5/transition_to_circle2.html"; //will redirect to your blog page (an ex: blog.html)
+            window.location.href = "transition_to_circle2.html"; //will redirect to your blog page (an ex: blog.html)
          }, 2000);
     } else {
         document.getElementById("answers").innerHTML=" incorrect.."

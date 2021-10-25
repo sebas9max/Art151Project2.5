@@ -41,19 +41,19 @@ if(dice==8 || dice==11)prefix="You rolled an ";
 if (dice == 7 || dice == 11){
     myPoint=0;myResult(prefix+dice+". You automaticly WIN!")
     setTimeout(function () {
-            window.location.href = "file:///Users/sebas/Art151/Art151Project2.5/win.html"; //will redirect to your blog page (an ex: blog.html)
+            window.location.href = "win.html"; //will redirect to your blog page (an ex: blog.html)
          }, 2000); return}
 if (dice == 2 || dice == 3 || myPoint == 12){
     myPoint=0;myResult(prefix+dice+". You automaticly LOSE!")
     setTimeout(function () {
-            window.location.href = "file:///Users/sebas/Art151/Art151Project2.5/lose.html"; //will redirect to your blog page (an ex: blog.html)
+            window.location.href = "lose.html"; //will redirect to your blog page (an ex: blog.html)
          }, 2000);return}
 if(!myPoint){
     myPoint=dice;myResult(prefix+dice+". That is now your point.");return}
 if(myPoint==dice){
     myPoint=0;myResult(prefix+dice+". You win!")
     setTimeout(function () {
-            window.location.href = "file:///Users/sebas/Art151/Art151Project2.5/win.html"; //will redirect to your blog page (an ex: blog.html)
+            window.location.href = "win.html"; //will redirect to your blog page (an ex: blog.html)
          }, 2000);return}
 else {myResult(prefix+dice+".");return}
 }
