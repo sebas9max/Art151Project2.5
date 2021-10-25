@@ -205,7 +205,6 @@ function Item(x, y, width, height, color, type) {
 //diplay game over
 function displayGameOver(){
 	gameArena.stop();
-	themeMusic.stop();
 	loseSound.play();
 	gameOver.text = "GAME OVER YOU LOSE!";
 	gameOver.draw();
@@ -351,7 +350,7 @@ function updateLogic(dt){
 		});
 		
 		if(gameArena.state == "quit"){
-			displayGameOver()
+			displayGameOver();
             setTimeout(function () {
                 window.location.href = "lose.html"; //will redirect to your blog page (an ex: blog.html)
              }, 1000);
